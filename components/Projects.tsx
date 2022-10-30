@@ -4,7 +4,38 @@ import { motion } from "framer-motion";
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5];
+  const projects = [
+    {
+      description:
+        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
+      image: "https://clipground.com/images/device-clipart-19.jpg",
+      name: "Coming Soon",
+    },
+    {
+      description:
+        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
+      image: "https://clipground.com/images/device-clipart-19.jpg",
+      name: "Coming Soon",
+    },
+    {
+      description:
+        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
+      image: "https://clipground.com/images/device-clipart-19.jpg",
+      name: "Coming Soon",
+    },
+    {
+      description:
+        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
+      image: "https://clipground.com/images/device-clipart-19.jpg",
+      name: "Coming Soon",
+    },
+    {
+      description:
+        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
+      image: "https://clipground.com/images/device-clipart-19.jpg",
+      name: "Coming Soon",
+    },
+  ];
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -28,9 +59,10 @@ function Projects({}: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className=""
-              src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
-              alt=""
+              width={500}
+              height={200}
+              src={project.image}
+              alt="image of project"
             />
 
             <div className=" space-y-10 px-0 md:px-10 max-w-6xl">
@@ -38,13 +70,11 @@ function Projects({}: Props) {
                 <span className=" underline decoration-[#f7ab0a]/50">
                   Case study {i + 1} of {projects.length}:
                 </span>{" "}
-                UPS clone
+                {project.name}
               </h4>
 
               <p className=" text-lg text-center md:text-left">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Possimus quaerat, dolorum praesentium assumenda molestias
-                architecto. Consectetur, laudantium? Vitae, dolorum et.
+                {project.description}
               </p>
             </div>
           </div>

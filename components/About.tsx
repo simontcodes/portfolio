@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AboutPic from "../images/SimonTang.jpg";
+import AboutPic from "../images/SimonTang4.jpg";
 import { motion } from "framer-motion";
 
 type Props = {};
@@ -54,14 +54,6 @@ export default function About({}: Props) {
           error sapiente incidunt repellendus. Quidem voluptates expedita soluta
           id assumenda, aliquam architecto reprehenderit optio voluptate
           laboriosam illum possimus sit explicabo hic? Modi eius, et velit,
-          corrupti debitis, quo earum assumenda delectus vitae rerum unde? Fuga
-          veritatis numquam perspiciatis similique voluptatem sapiente quod
-          ratione obcaecati maiores! Ad voluptate, eveniet quasi voluptatum
-          sapiente modi aut vero repudiandae omnis illo, unde cupiditate iure!
-          Ipsa officiis rem id? Cum, recusandae molestiae, provident repudiandae
-          laboriosam laudantium sapiente minima tempora cupiditate fugiat
-          reiciendis incidunt ipsa culpa. A ratione fuga magnam? Temporibus,
-          est. A blanditiis, possimus similique incidunt aut nemo facilis.
         </p>
       </div>
     </motion.div>

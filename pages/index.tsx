@@ -30,9 +30,9 @@ export default function Home() {
         <About />
       </section>
 
-      <section id="experience" className=" snap-center">
+      {/* <section id="experience" className=" snap-center">
         <WorkExperience />
-      </section>
+      </section> */}
 
       <section id="skills" className=" snap-start">
         <Skills />
@@ -46,13 +46,13 @@ export default function Home() {
         <ContactMe />
       </section>
 
-      <Link href="#hero">
-        <footer className="sticky bottom-5 w-full cursor-pointer">
-          <div className="flex items-center justify-center">
-            <ArrowUpIcon className=" h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" />
-          </div>
-        </footer>
-      </Link>
+      <footer className="sticky bottom-5 w-full cursor-pointer">
+        <div className="flex items-center justify-center">
+          <Link href="#hero">
+            <ArrowUpIcon className=" text-[#f7ab0a] animate-pulse h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" />
+          </Link>
+        </div>
+      </footer>
     </div>
   );
 }
