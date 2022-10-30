@@ -8,9 +8,6 @@ type Props = {
 };
 
 export default function Skill({ directionLeft, icon }: Props) {
-  {
-    console.log(icon);
-  }
   return (
     <motion.div
       className="w-18 h-18 md:w-28 md:h-28 xl:w-30 xl:h-30 "
