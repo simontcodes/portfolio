@@ -15,7 +15,7 @@ export default function Home() {
      z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]"
     >
       <Head>
-        <title>Simon's Portfolio</title>
+        <title>Simon`&apos;`s Portfolio</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
