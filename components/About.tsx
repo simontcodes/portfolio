@@ -45,15 +45,12 @@ export default function About({}: Props) {
           background
         </h4>
         <p className=" text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ullam
-          inventore debitis iure molestias qui facilis officia adipisci nulla
-          necessitatibus perspiciatis quas, et vel enim quam laboriosam aliquam
-          beatae modi? Nesciunt animi nulla ipsum iusto omnis, sunt deserunt
-          quae amet fuga dolorum, atque magnam. Iure, laboriosam veniam! Dolor
-          possimus ratione itaque, commodi temporibus unde, debitis, fugiat
-          error sapiente incidunt repellendus. Quidem voluptates expedita soluta
-          id assumenda, aliquam architecto reprehenderit optio voluptate
-          laboriosam illum possimus sit explicabo hic? Modi eius, et velit,
+          Originally Venezuelan. Moved to Canada looking for better quality of
+          life and opportunities. Recently decided to give my life another spin,
+          took a coding bootcamp at{" "}
+          <span className="underline decoration-[#f7ab0a]">Brainstation </span>{" "}
+          (a no brainer considering my background in computer science) where i
+          picked up the skills i needed to become a web developer.
         </p>
       </div>
     </motion.div>

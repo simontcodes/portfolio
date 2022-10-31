@@ -17,6 +17,7 @@ export default function Home() {
     >
       <Head>
         <title>Simon's Portfolio</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Header />

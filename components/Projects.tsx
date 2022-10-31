@@ -7,33 +7,17 @@ function Projects({}: Props) {
   const projects = [
     {
       description:
-        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
-      image: "https://clipground.com/images/device-clipart-19.jpg",
-      name: "Coming Soon",
+        "Warehouse & inventory management tool that lets you add, delete, edit and sort warehouses and inventory items",
+      image: "instock",
+      name: "InStock",
+      tech: "React.js, Sass, Git, GitHub, Jira, axios, RESTful APIs, Node.js, Express.js and other libraries.",
     },
     {
       description:
-        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
-      image: "https://clipground.com/images/device-clipart-19.jpg",
-      name: "Coming Soon",
-    },
-    {
-      description:
-        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
-      image: "https://clipground.com/images/device-clipart-19.jpg",
-      name: "Coming Soon",
-    },
-    {
-      description:
-        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
-      image: "https://clipground.com/images/device-clipart-19.jpg",
-      name: "Coming Soon",
-    },
-    {
-      description:
-        "  Lorem ipsum dolor sit, amet consectetur adipisicing elit Possimus quaerat, dolorum praesentium assumenda molestias architecto. Consectetur, laudantium? Vitae, dolorum et.",
-      image: "https://clipground.com/images/device-clipart-19.jpg",
-      name: "Coming Soon",
+        " Minimalistic youtube clone that lets you play a video, add comments to it and show you next videos list.",
+      image: "brainflix",
+      name: "BrainFlix",
+      tech: "React.js, Sass, Git, GitHub, axios, Node.js, Express.js and other libraries.",
     },
   ];
   return (
@@ -59,9 +43,9 @@ function Projects({}: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              width={500}
+              width={1000}
               height={200}
-              src={project.image}
+              src={`/${project.image}.png`}
               alt="image of project"
             />
 
@@ -75,6 +59,12 @@ function Projects({}: Props) {
 
               <p className=" text-lg text-center md:text-left">
                 {project.description}
+              </p>
+              <p className="text-lg text-center md:text-left">
+                <span className=" underline decoration-[#f7ab0a]/50">
+                  Tech used:
+                </span>
+                {project.tech}
               </p>
             </div>
           </div>
