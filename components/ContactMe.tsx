@@ -23,7 +23,7 @@ function ContactMe({}: Props) {
       className=" h-screen flex relative flex-col text-center md:text-left md:flex-row
    max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className=" absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="hidden absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact Me
       </h3>
 
@@ -51,18 +51,18 @@ function ContactMe({}: Props) {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className=" flex flex-col space-y-2 w-fit mx-auto"
+          className="  max-w-[350px] md:max-w-fit flex flex-col space-y-2  mx-auto"
         >
-          <div className=" flex space-x-2">
+          <div className=" flex-col md:flex-row flex md:space-x-2">
             <input
               {...register("name")}
-              className="contactInput"
+              className="contactInput mb-2 md:mb-0"
               placeholder="Name"
               type="text"
             />
             <input
               {...register("email")}
-              className="contactInput"
+              className="contactInput "
               placeholder="Email"
               type="email"
             />

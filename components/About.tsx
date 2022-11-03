@@ -32,14 +32,14 @@ export default function About({}: Props) {
         viewport={{
           once: true,
         }}
-        className="rounded-full md:rounded-lg -mb-20 md:mb-0 flex-shrink-0 w-56 h-56 mt-10
+        className=" rounded-full md:rounded-lg -mb-20 md:mb-0 flex-shrink-0 w-56 h-56 mt-14
           md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] object-cover"
         src={AboutPic.src}
         alt="Picture of the author"
       />
 
       <div className=" space-y-10 px-0 md:px-10">
-        <h4 className=" text-4xl font-semibold">
+        <h4 className="hidden md:block text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#f7ab0a]">little</span>{" "}
           background

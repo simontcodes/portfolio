@@ -51,7 +51,7 @@ function Projects({}: Props) {
 
             <div className=" space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className=" text-4xl font-semibold text-center">
-                <span className=" underline decoration-[#f7ab0a]/50">
+                <span className="hidden md:block underline decoration-[#f7ab0a]/50">
                   Case study {i + 1} of {projects.length}:
                 </span>{" "}
                 {project.name}
@@ -60,7 +60,7 @@ function Projects({}: Props) {
               <p className=" text-lg text-center md:text-left">
                 {project.description}
               </p>
-              <p className="text-lg text-center md:text-left">
+              <p className="hidden md:block text-lg text-center md:text-left">
                 <span className=" underline decoration-[#f7ab0a]/50">
                   Tech used:
                 </span>

@@ -33,7 +33,7 @@ export default function Skills({}: Props) {
         Hover over a skill for current proficiency
       </h3> */}
 
-      <div className="grid grid-cols-4 gap-5">
+      <div className=" max-w-[350px] md:max-w-fit grid grid-cols-4 gap-5">
         {/* {icons.map((icon) => {
           return <Skill icon={icon} />;
         })} */}
